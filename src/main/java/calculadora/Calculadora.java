@@ -9,7 +9,7 @@ public class Calculadora {
     }
     public Calculadora(double valorA, double valorB){
         setValorA(valorA);
-        setValorB(valorB);
+        setValorB(valorB);  
     }
     public double getValorA(){
         return valorA; 
@@ -18,12 +18,15 @@ public class Calculadora {
         return valorB; 
     }
     public void setValorA(double ValorA){
-        this.valorA = valorA; 
+        this.valorA = valorA;
+        System.out.println(valorA);
     }
     public void setValorB(double ValorB){
         this.valorB = valorB;
+        System.out.println(valorB);
     }
     public double getAdicao(){
+        System.out.println(valorA+" "+valorB);
         return(getValorA() + getValorB());
     }
     public double getSubtracao(){
