@@ -19,14 +19,11 @@ public class Calculadora {
     }
     public void setValorA(double ValorA){
         this.valorA = valorA;
-        System.out.println(valorA);
     }
     public void setValorB(double ValorB){
         this.valorB = valorB;
-        System.out.println(valorB);
     }
     public double getAdicao(){
-        System.out.println(valorA+" "+valorB);
         return(getValorA() + getValorB());
     }
     public double getSubtracao(){
